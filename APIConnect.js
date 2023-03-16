@@ -15,7 +15,7 @@ function importMetaMarketingAdsData() {
   // API Key Pública
   var apiKey = "EAAOgcbfZC1QwBAAMct7kxDY3idBcHZAJpO8f6Fn9pszAAn1fiotYWaGNhYWVIvFIEdUn4knayYP0G0668HUc51J3zscd7KnOcaL23wk7NvEpkszwO6eJhrF2oZCN2fe30MBwMgvVn63FN6su1ANaayZA0BgvtVLcBAcY4qfcKVLjxHwWGou0MnZCUztpbe0RyN6XvcX8d1LIjQSFfjjjF"
 
-  var apiURLMETA = apiUrl + "/" + verAPI + "/" + "act_" + cuenta + "/" + filter + "&access_token=" apikey
+  var apiURLMETA = apiUrl + "/" + verAPI + "/" + "act_" + cuenta + "/" + filter + "&access_token=" + apiKey
 
   var spreadsheetId = "14rbdS09bHKGtv3wIbxWLiPk_HjxrZ2FoQDdIs369G3g";
   var sheetName = "Hoja1";
